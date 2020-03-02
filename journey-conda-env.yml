@@ -1,0 +1,10 @@
+name: journey-conda-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.7
+  - pip
+  - jupyter
+  - requests
+  - pip:
+    - html2markdown
